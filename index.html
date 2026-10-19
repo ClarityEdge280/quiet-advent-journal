@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FBF8F1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1A16" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Quiet · Advent — a free 25-day guided Advent journal by Dan Kewley of Clarity Edge Counselling. One passage, one question and a prayer each morning from 1 to 25 December.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Quiet · Advent">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAKE/YAAAABgFBMVEX69/ASRFMNQlIDOUj29O1TmJtWnaFboaRLlZnp6uRFhYolWWXW2tYMQU43dHuntbZJjJK3xsU0a3QoYmwdVWI7e4ITQU3Fy8mXp6k1W2VohInJ19QsaHLa4dxVdHuXuLdHanMoUlwaUV1npaaFmJokTFji4912qaqnxsRDfISGtbWIpadNm6E4Ymt1jJJ6lZmzvLsJPlBFZGxae4NIdXrJ0c3w7uiJnKESPUpnl5lyiIy60cw8godpi5JkfYNXhYpSbXShrKxUjZO91dHc5eC4wL7R0858srJmnaI0VV14rbGnwL4CMz4RPlJjeX6awL2bwcEucXh2m6GRnqGcrrGjrrAALUE8ipJcop2YsK6Yv8AbTmCjsa9lpZ9nqbF7sq+ArrCIsa6TnJ+nvMC3v8AdYGMgSk8vdYE0T15DXGdUaW6Bj5aGoJ+SoZ/v8OkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT0ha3AAAZ+UlEQVR42u2cZ2PqSLKG1eoWRkggiyjA5AwGbHCOJ/jkyWFnNu/d3ZvD//94q6pbAdtjY4zPzAf3hgMY0KPSW7Fla9rzel7P63k9r+f1vJ7X8/qMS5jl035tOHz3sUfr47vhsO+Wr0zx2+Q1y/3hu9aGEYdl4IrF4vEY/BuPxWKt3rBf/o2Ri/I37wh34/YVi8EPjVir9tr8zZh42AKbXsO8FR3Oqtf/9bnN18ON+HYs5NomeYQv4NOFN8Q3hr+uvStfR2yMCtjoDWv907JduTLlqpRf978GrcfU+2LE3fqm8qsJeRjzifHC//Wb08ov+ZqogJu2Yr7F4cG717+CW4rTnu9323Gj9XU5uOTXYYLn/1fuv9sg7hjqqPW51S3cFmhB2tjo9SvLWk1U+j3f3qCS089p7XJPIW/HW/0HylPYtdb2tlJJ7/XnQrY/opThv9vGsCxWCzmQcN4jtjH8LC4p/hDb9pHt1a8VYKuA3n96jZRbMmJsb7+zH/VFlaHKQPGW/cRm/iYu5bjdKz8+yr8j6lYs9qTGvuqRmdGB1nKY163tGK74x6snY3YhB4MU4+uToehvbMvsfvpE0qhJM8eH60wK5lCFvyeRiPkxjr4eX7tNXOmQ67WFTMWVlpRGb/259+ojGru13Vr3V9sxuorx2vovooCYRF9utNabaMpgZPiP8UTuor3eiLVQfLa2Nhf3mWPl2/qW8jqu6tVftpEajiDWxQxNKsgZrt71b7SHG4bR2l/DMWQUWR+1bWAKQBcUWFyakQL1L1RmGuvQoqhJYZfXxBw3jJh0QbPfMoyaGUw5zEovttGK19ZyoD+QrY11VCIVYjZciQz5BWweuYJmL9aK9bQ1Um88/rqZ73H0grY0P72PU6WwEe+H0UqrwGm0xO2d1kMXKST26Hgteps0LjJGPbB4TEH/YeFIxrosrWnkjfHWI0++9pNkNoJZF/qkDNfmKbWm5sZ2TT13y488nJDUw8fVBYlwNmf41PEWxpGDfitmQLYRWo2ed2vw1hjGF/GoK4stfqC/lZwwEfdXSB1/X6EOBqNd7BhsbZqUf6hx7PeHvdbwEV222Yr9DNSrBz5x/NNmHP+zwP0eOWuGQT4Tc6UDqtoEB404GhuuTl3B5tFY3Rm9s81whdi1Wo/CYMwAPFfWgDEDa8CYPyJb/foK7ZQEsmro389tJjY3E4kQmrh9eoSuuWQRW7VNsZicH0EFi1e6Yq9kryFRryYQ8/IsIVfU2kZ0vT+gC9qPBcyysoK+F17vx3/+8yqHFi087dUEMvr3RGTdyh1v1UArsXgsdg1aXt3axs8rHbqysapA7FQOWMHYuRQ9isokpJbT6BvLMGUk+PNq9U9/e0WBnOcGuVwOkEf77mjR3KRsPwLK/1tADqz0tfHzSoWEeAeyNnoPDkHuFiDnBqkUxbTLXBT7mrLDtBMYmoZGELxV7BMPbRSuVgpBYo7MOWSGDFdLJQYLxj7bjN9JHTdqNpWABOu2ZBJ9iEBo9m0+LFjWtlK40sTsgKrB6gr7LGH0av2ecZu54/EQe1iWZZ+JYymj9tAIsv1gXzQHaZ9Z05x0isyOEsnlcLxruj1UdTxwRr+mOq3FgyASM4ZkXnOIW4lG7WGTNEoxD2mJhOZlkHn8Bg/6e2l0MHUuNfjOhRraeXWGMgFMTD2Bkd/XrrSrUCQYa2UAqNSgtmq5D4KmyulBpjZTALol7TwifoROD0YgVOGgV6KwE4lX72uuTbtYVxWb9jAqUWgw1WnQmD14akGmNpc3tJNNpbfSBWySz4E5LfU9wm8olFJ+vjn+dG2vRYird/GIrrE1W7lcEx8fZmoxyKQzaRyc2HuZNC5ATn/Cn4wg0ZBH5r7bD4jNCm7j1/6ld9yrle1yL0odW7lcK6MnLPtxoblZxexYGbC4XGT30rcDXInB4JPi3f8ErOSNoHBHKDlG8szq9TyZeumPlyxrjOqdNDNbuAA5g/quXKb3IN+AmQc0U6l86l3K4I3hYxNTtoAFnh8zgn7y4+qzuLixbFoETYybyNyts61MJkPQlkdawTiyNT1ODVCp5V4ikHd881UCGhrZaZl/o6GDoZLjyvqgALJc8SK0PyWtffC4D82MlcG1lbaOiXlM7jjaS8E1M+EfoB0cq0R5pgZQtltrxaMp0lh9IOBCVlquyRVaNV8A5kbWgkXQVh0O3CWf3BrVUqkpnMElIA8SqZGn0mRPDaDiiWiGR+iyeVVebUppbizvyR4w242mpVYmY4GCD6r/Cj5pjdx0am6C1VMDLKdGZZnccyNgPugbkvha997CzrHlrtjDLO+K5li3stmshGYOmP+kCdrOflem3N7do2okfSyOqfxLYTh1jxPXy+2QHLD7q7giVqjLOYAQL/QsLYRunmBeb4JMsqXu3lb6XIiSzJI50/mW7IxDsynaHJtKoE5cq15J2yuI28TGa7kCRGhtnm1mm01izqbhYAVgzlj1g+NMCoKfrExSW/8QgxxE7ZQDTXCk4j7b7Lk4Tbtm8fgK2whDY0l9QE7hrEkLqRlE6G4xi9C2a6Uy51phjBkntXUOBSxQozYKe7nE2ZmqXHEUXN6MXxPKSmnmNZZdf10qTjOdyfXHrKWX4JUSg+jXrAlIlJmCNoc0iQnHFoMUME/BzntYuZ4hdu64Qgo7TkRmU/Lfq1Xix5K9wEGRM3/9kTW6mvYmDyZvzrVRNm0NtH9YlHAyI83BZDMwNbOqCm5oKY+FbFGGZ/5kCpiH/dpotNKwHLfP7y+6wKwhM2McUqGYMdSJbYK5sz+IukW5vW6KcyxgQRyjLcV8ljs/UN/SPwua4Pgj8gu2XfGv72V+E2VmRcjML5MQRpinTTF0m05TJhxHs6H42xocaHbKr7hzg0rgF7lN1VEC9eo7SWVDjavuVlFnwdAQokWRZbOsaJoWoM+1vSzl9r0DrQZBJAOG/n3Gp95y/PZ1P+yDMYwMayvW1ZAUY/dtDQjtq99FmYuaNHRW9zSPWVndKTBizkKYK2Hd2tXE5ZaC/vZSIZ/2EuFI7adN8sQVqYdYVd/jDuWjBUO/REPr2SYYWtQZhO5KiWGStMamVoFYYpUg42NJQs3NlisN7eZywTjt7H1/SFNtd1VRx+79rLNoaGDY4VnWTB5q+6yZ1fdsmSWzEOdciCJocBcjIAXugTJ0bevMx6aipLZJB15pZv0aoe9puhZDxwQO9F96ljHL1A55M5scObImyUJNNQKPxBrWy6ZVozBSXGKUe/WKBiW5VxgB+5tGbNWBM3bK93liPQK9ywHt7ZGk16qQcXT3XBYlaYhsJai3xxDFS1nV3myFsu0eiGOsXb+lYU+fZpT916vUp1B+xGJ3b3cJiB16YOgGvPeE/xEeFrRuB1+yxwyTOwMpi3o2k90DQ8pwAtlmT1wfBqbUtlcMe/SfVrt5BhrOe9pbm3E9hP4K0D7AU14XIG0wdNpmWJVkoVjVMAI2LyGBjmUM3MqeL57/dHDpO1C59b616o3TUFPfEz7cCDNmQ2KlB1N4wOcubwI2Y2VsE6TFTQWdyY6uuVr0Ft/VN46+wZr6zuzkBNA60/lbVAepAiSN0IeelHwDq1UWQMu2LFvTnuLeKWoU74x5XiBpnQKe+ICsY3jQSGJ+PCRofYyhEPMkQhdVg9N0ngS6fG/L1eYRdVQxdoDlMXbYedR24Zyrn0BxAXEkGYG22FNBx+6Zjp3whSitvfwCTb4jta3r9lxCz7EBS2abSTgvMW5alHGY9yTQtnHfHAFyixK1jsUSnIQOz23SDbzUVdDYGIzAJ/U6fGaPyR6YtZ8EGrLLhnEndJUgiVvH1DKD59wSqBuENiPQKG8d8zzkmyZSo8CfCrq3LDQY+KCD0HWcIABikgmZ5fmFgmYdqJ89gKaMUxdPBv23u7M4QhM1h7hmkx9eqHZmt6NNQkck6CRcDRc8ktpgy34Kfdwvjyg0XPqdLxC6HUKPJPQMHdFPO92s6t3ZzhNBx5aBJnAg015irsE2UUGLHR4pWX1113XIkQCun2hPEz1id++NEbQuoesYM+BhAM3ZgQ1xHE6jAxnRVpcDhYLQDDuFp4jTCH1n27OHIS+E/j6wNDriLjNNhikzeQRB0ITnTMdHhSAhPUV6eW3E7pmszyPQM6H9naAPAWWCP8jbWhH/TXJUL5Xe1JCN/dRffwJL9wH67mneJCKP4oGSx0TGCni0Q/BJafwpovIXNPrzk6i7flNDh+nc/Y6RDw0GZl1yRJ1CHpV/YNYdegOdh7MLLyXB+uEcja/b1AL80BjdYwgnhMaMSE8puRQI+gTHIv5Ldj6J7/p7dCjF1x317GPj3nsBXGlICnygAbIrpfEu2yVW4MOXOvhFLzCUUPgLTJ0srpfZNZa4fX1fT4bQda3M4SnqRBNFLlnpPJJ8n9ILPNLJuKGq/3uNpr7CiQk0Le7O3b2vRYZEapbk9gGjp7jvWSVPLEh6nbKkKX+KrhhOWvNrE4j5NY61oWdxju7JWmk/5qGpS5pFqD9KWxKr9gNZ/z81ioO6f04FeFUK5EN3LdSmSzt7LrZI+Zd3v7cagQZT1zGX8BPliTrGbrOBqiDSbmBqgXlICpu/WJpZ/OIvt7rD47iys8toRn7XmhI0/o9DOJ5fEPRMTkTgxSPodQ/J1F+hPeW7UdVKP7qsR5YKZupf06zQulK/SHzaH7aM+GaEOT/Rlol5YDUIFsmkNDt6ooBkKbUsox5mcuEHwAbGErgCPvVkKWLc3O0dX17649VXcjsJB9rGZqt2LPWMM/L7BLdPrUqdK4AkCQWn1NqPFDawQJJ5sorm/UGe4wk+3iex+NTiPsmOLlPprdTC3VE4gkf0zc3aaS9xDFWSB9rA8le7N3zAQd061wNx61SAmmh88joxI2q6V6gqqUkghS8lNfYN4peoaTfaOU9nMlspf6dmMPChX716BeBD2zUSo4omJklV/d6zpArOtUPGg+zIi3j9L4Kcbh/h9cCxiPLFZMdGald9BKst+1Y3w5cKx+mstUV3vqhNj1wAjbcY1SqVUcLog5nATTqsbt4vNo9mTHDxKyXG/VDC/xnEj7xJ8c+P1X4xMjMR8k2eB5XLjzejA96l4MyhB/bvIiFouusFx++5XOLVd31TfDJIGvaYszwrVpbw6YK8xBzUb0/R2sznU6r4Hh9ShsmTNduSGrta+DQLbM0v7OgMj05AOHXcKMv4975IW2+lvwX0y1ff1U7h1PvHicTvwbpOB7SRtwqa59yPbfnU0LNWph3OUVedA1XpUSWC+6NYiszod0a+4knpmFSUFXlQcLGJ7e+1S38BZKZmaBmyNG6iDo5HtU8FW/5FArNmJBLHkLnNCc26imU46hKtRUlqgnHKQ6ZTzYO56YOUVuRDFUFe0hV/IW19QdQgxN0gObG5o/KCsJ2SlWT+TQI0ZrWs9LljR4Ds2qtB7hJ3qd1ikirdivZjkt3b5AslUqz0eYl2Mu12kfP/CKVcJCFQLoFcg/d5zLiKMSQCD4WN/Q0OfDgbV0ulUnXM8Io1m8G9DZY1vnQqkcRYcY73UikMGpp5QjWBfn6gHeYh4S6R9Fl4gYtv5Tfa7Q8ybftRGx7jngGXUcNU1FVBUtif8XASgdUX9wsTwCbmbLOZnhZEIB1Rrp3vgcL3aC/aaXCy8wg7KbaMOoSvD6I+aoswBggqppkytYui4x8kdV15Y5fsJv6X4Q/1cCeEhczYuY9LJBv5zQdl7zKNtxrtTbHpLlQ5NZ8Nh2Ier5vL1ARuEJ8BkBffhPbQKg2sWqmCpuCILorZRjuQ8zTecWTEsEtJtNYNaHxTevrGDFO5M90bI3GG7gmFD0rk5LyiuVAY0LVcppQpRqgBe/bSDJRnOqUi1Rp40MNd/PmRRwAnGEPg3dWCBNov5Tm/zjyuTp3gxkkEroI3ZtJAXXLwOzHIUh1QhA65fQR+xQrLMUPtpocLRdmpyiAg7W17LyiDq34FHJASiycZAdtV1p7gdUlG7w7w9ul0Tdt1ppdpq5nFu7osa29EZ2JPJLLOoCzbKWI9sSQzfph6rmQUm+dfeHbo6WqPE5t3sssOyUr6D7y77tA50XXJ8wXyhpWup4sNfIhBJNvMzEcFOhP3qzx9W5JXba0wRxPwxtK/vCq0AdaeyYi10YA8P2vLSyv8bAH5htHslJfwSnTn0tiAXWy/9TWwc1gtMs5VEEni9/r8qBYZpyvfFzmXsWavAL6YJH+B/NZdetbgRvXhc1PsKpb+5GcDJIcMSBUK+EsbzeVYAXZ+3C4Ev9ZqF5zRZF4fWw1cxXG9Wjp0XFvt2ZlvSh3pfpyVCsLdU/wvTM2ZLN2fiXHYdKkFFkqSvXm+OG/vRPJYxat28PWOh7+INmXK/fAcG9W2241uJppmt1vpmpENRsyUDYJEk3i2PVLnzfMQbQv59vL6cHjyJrPklhbPN/YmHpjqgL6yCweGg3aw1qic+9hM3+WYEUteoXvrkc2CJzUPfRLXrblTdqpJqX8StrZz1HjAnF5kKC5QUpPQetAT+GaEtcvgUs/GsIqMrgPbg/rMRGPpKkjLd7Li7KINerDByNgUglza1RldICVwa3A+qTP1lPMxuvIh0x+wjSO0mr/LlQygr2uc7BGsXXXfAmdVxxQ7czK3/07dfxd4H6xO/mgxtwNz2vKJkxh9oOixoalmD7nDTICqLcYXjO3Hvyi3fj3fkTRZ1Su4h8XIJ/3xkzzLZPJGpmT+m+DTc9pTdqC2OZo+bFjp8s6ofhu1bNZlK6ir//pHDMMjty6qLIqcjLD/4sLPTcm4+1UsEh+8szD/neVO4bzz+k1o/RcIIo7LOV+A1u+Dhk8cFUvyd2HMCYX/3ekDmfHOD1Z2sQq+DVU+2d3dDVUd3L6gL2PU6KmSaDrVUUGF7cMGqXt3hS2cKT/6smxSkgsjh84jCy6gVUzXq/PSRZUcSdE/AJh48xbEcx/QnnRUyOQPv79MmBmO9QoULjzQq87q523P+8FxHNct2HbXjPyuS8E5PIGMfaTCyT3WlriNegnDfXDrEzZ3qlBZZt5x24A9z7+EtuF/gvCFsWmvdFgD3oU/jBcUIwgPMfiwNGswFl6SLxflIKOfVZ84+2Y01bRfdMJqdrexyvQVStTfwYEP4YqdyCRH9XIQcqHcKU095xp/yNC1CwUXLol3OIEaPIwP0rzRQiAAxqPsJuV15SvepyPSEDx4tauwUdlcz6vvDM3YKc6qJ54D5u+a4QJm1/Ha5/N6sRMauAPmXfy97IO3zrQe5EacI8qzm6/61wnKOhZwFvYi3bYlv5eqkmvBNUx4nU5Drkga5OpNjXroblLBhT9Nq418JDdyNpk2aBhorTqax2yexwNO5XRoziQBZIrkLfkwGlgW/FAFNDPSRHQL3nTG/FMKfLPqntBsXn/ELpnQztG4ST7b952bhX2IHom0VAfenuM4q093zMhU2jmcy65gMZvr0BUXxjy41Xz1vUdBezBwiIkpD9p1TopH11o/3B66JU9TVkQNL9aiR0H/tagyfWK3lb/TaPYRq4ujPZw2dTwRdrYli8KA4mV5WCwKrfsWDkaeBzYUox3+xY3TVe/XS7Yrd8hwsPK4uxmEvJET6jLsK8xAlGZhFFXKYkbGeFht+8Ci4noQt/MIrDN20xcwnk5sqES5742P/ftA4fQWsBsnbyNTUPPNxOI3ZhvF+onnynYU3O1lu/qBcJUg9NtUn/ZMc5qnIINZZfmxwZ1VKld9AHbk/iRBelWhPc5HwKsjp1C2y4Udr31SnSlcKl7YbbUh1bAliKge/SIC3y1BPbsGZjlH5apNlBMQf3IjwW1vduR3LriOrrczt5Z9eaV6KIqER73sLjQsJRDYeu6+wJskSNdJv86D1sRe5K771V0yf19dl1Sq32uTit7KGkHnjVoZvmVtu9REnfSx1cRpz1sY87/FIXakKs375atc0XrWqs/bjrxpHa4SqR0yb9t0gD7vrvFvz7k6D+cIqhUMxjGKe7+NMZgczrqcet5hqVovyvGMZRVn9erFpO1hgejvJLZneWlkaLJMs8QZb+yv8R4GoIYYEkLrfj3RufBsEaZn+/sXKtVD4fmDa3cPaMwurhU/wna9aoMrYlaHFIB9LG+8XestLhCvrd1bukSOnd3JTjfCTRMjufKdcXUyct7gNpBpHhyYpr3/5mX7grJ40Lnj/WbYQ/Piuu+gFFq3ym8My/zem71oR+ohuPByUhZtzFAjjU7eV7ocsJVo10WNSOfm2u/aonsOFqmTC+CdajhxRHBIgz7jzYUpUw5MTSzCsFCZatpT/FFMHOzeOlAICtPObBptSUzbfdlGd/zQ6VCBku80xnul9ku/LTR3SnLeyNmO9jQLhD2PGNt3SgWeV2EuX0QjmotNMjQytCJ/dF3skzPKmWb9SW4I9o3tMX9Gp/M7TA42L7V/qX886GLJ9yHI/5wdatrT/V1k8DO7fos/3kjUST98FGcvLtqe5zg7b97sOD9Cl/vVrPFv+ch8ROezt0/JHBibRyZ3C4/YHR3YYjQJ3sIOhfbUf+tbyFGbmjsx6gD8GWq0DbhxHjeek5WTJVvTPsPfsMfdtrks4RS1/1sE10HVZs1t10GNreuFz4KssN26dCOFk88z1XUtP3fE4bn22Zhl4nPnkSo6gF6WGnRdVbuNn2/hwcrn/pbDlxH4/FLIrLSvfWZkH7vr1XejXcs1hdweVeADY8/8NZDDe7+mRb7IfSc0doUnhV+NOMDG7vboxjRdv83z+K514Zi/LnJ4C6btTGbs2j5GaG+/spt7+we/AeIIt2YWXk5eFDs302CeFWngLyJv/k1gBw0V7QRMLqr1WbFYr1dLbe+fb7sicm/e83pez+t5Pa/n9bye1/N6Xrev/wfjm2jwUR+SwAAAAABJRU5ErkJggg==">
+<link rel="icon" href="data:image/png;base64,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">
+<title>Quiet · Advent — a free 25-day Advent journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   Quiet · Advent — design tokens
+   Palette: the printed journal's warm cream page + sage ink,
+   with three alternate accents the reader can switch and keep.
+   Dark mode drops to a warm near-black, accents lifted so they
+   still read against it.
+   Type: Fraunces (serif) for titles, verses and day numbers;
+   Karla (sans) for body copy, labels and every control.
+   Layout: a one-screen-at-a-time "booklet" — cover / contents /
+   day / about / how-to / notes — switched by JS, no cross-view
+   document scroll; each view scrolls internally when tall.
+   ============================================================ */
+:root{
+  --bg:#FBF8F1; --surface:#FFFFFF; --surface-2:#F2ECDD; --border:#DCD4C2;
+  --ink:#2A2A24; --muted:#8A8377; --accent-contrast:#FBF8F1;
+  --shadow:rgba(42,42,36,0.10); --accent:#75876C; --danger:#B3482F;
+  --font-serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-sans:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1B1A16; --surface:#232119; --surface-2:#2B2821; --border:#3A362E;
+    --ink:#F0E9D8; --muted:#A79F8E; --accent-contrast:#1B1A16;
+    --shadow:rgba(0,0,0,0.35); --danger:#E08A6B; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1B1A16; --surface:#232119; --surface-2:#2B2821; --border:#3A362E;
+  --ink:#F0E9D8; --muted:#A79F8E; --accent-contrast:#1B1A16;
+  --shadow:rgba(0,0,0,0.35); --danger:#E08A6B; color-scheme:dark;
+}
+:root[data-accent="sage"]{ --accent:#75876C; }
+:root[data-accent="teal"]{ --accent:#1F4B52; }
+:root[data-accent="taupe"]{ --accent:#8C7A63; }
+:root[data-accent="indigo"]{ --accent:#4A4E78; }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"])[data-accent="sage"]{ --accent:#9AAE8E; }
+  :root:not([data-theme="light"])[data-accent="teal"]{ --accent:#4FA1A8; }
+  :root:not([data-theme="light"])[data-accent="taupe"]{ --accent:#C3AC8C; }
+  :root:not([data-theme="light"])[data-accent="indigo"]{ --accent:#929AC6; }
+}
+:root[data-theme="dark"][data-accent="sage"]{ --accent:#9AAE8E; }
+:root[data-theme="dark"][data-accent="teal"]{ --accent:#4FA1A8; }
+:root[data-theme="dark"][data-accent="taupe"]{ --accent:#C3AC8C; }
+:root[data-theme="dark"][data-accent="indigo"]{ --accent:#929AC6; }
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; height:100%; }
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--font-sans);
+  font-size:16px; line-height:1.55; -webkit-text-size-adjust:100%;
+}
+#app{ height:100%; }
+.view{
+  position:relative; height:100%; width:100%; max-width:720px; margin:0 auto;
+  background:var(--bg); overflow-y:auto; -webkit-overflow-scrolling:touch;
+  padding-bottom: calc(28px + env(safe-area-inset-bottom,0px));
+}
+.view[hidden]{ display:none; }
+
+/* ---- shared chrome ---- */
+.topbar{
+  position:sticky; top:0; z-index:5; display:flex; align-items:center; gap:10px;
+  padding: calc(14px + env(safe-area-inset-top,0px)) 18px 14px;
+  background:var(--bg); border-bottom:1px solid var(--border);
+}
+.topbar h1{
+  font-family:var(--font-serif); font-weight:600; font-size:1.15rem; margin:0;
+  flex:1; min-width:0; letter-spacing:.2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.iconbtn{
+  appearance:none; background:transparent; border:1px solid var(--border); color:var(--ink);
+  width:40px; height:40px; min-width:40px; border-radius:50%; cursor:pointer;
+  font-size:1.05rem; line-height:1; display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-sans);
+}
+.iconbtn:disabled{ opacity:.32; cursor:default; }
+.pad{ padding:22px 18px 8px; }
+.btn{
+  appearance:none; border:none; cursor:pointer; font-family:var(--font-sans);
+  font-weight:700; font-size:1rem; padding:14px 30px; border-radius:999px;
+  background:var(--accent); color:var(--accent-contrast); letter-spacing:.3px;
+  min-height:48px;
+}
+.btn:active{ opacity:.85; }
+.btn-ghost{
+  background:transparent; color:var(--accent); border:1px solid var(--border);
+  font-weight:600; padding:12px 22px;
+}
+.btn-row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+.muted{ color:var(--muted); }
+.eyebrow{ font-size:.72rem; letter-spacing:1.8px; text-transform:uppercase; color:var(--muted); margin:0; }
+.rule{ height:1px; background:var(--border); border:0; margin:16px 0; }
+.prose p{ margin:0 0 11px; }
+.prose p:last-child{ margin-bottom:0; }
+
+/* ---- cover ---- */
+#view-cover .cover-inner{
+  min-height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:14px; text-align:center; padding: calc(30px + env(safe-area-inset-top,0px)) 22px 30px;
+}
+#view-cover img.hero{ width:min(210px,52vw); height:auto; display:block; }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) #view-cover img.hero{ filter:invert(1) sepia(.22) saturate(.7); }
+}
+:root[data-theme="dark"] #view-cover img.hero{ filter:invert(1) sepia(.22) saturate(.7); }
+.brandline{ font-size:.72rem; letter-spacing:3px; text-transform:uppercase; color:var(--muted); }
+#view-cover h1{
+  font-family:var(--font-serif); font-weight:500; font-size:clamp(2.6rem,13vw,3.6rem);
+  margin:0; line-height:1; letter-spacing:.5px;
+}
+.subtitle{ font-family:var(--font-serif); font-style:italic; font-size:1.05rem; color:var(--accent); margin:0; }
+.steps-line{ font-size:.72rem; letter-spacing:1.9px; text-transform:uppercase; color:var(--muted); line-height:1.9; }
+.countdown{
+  font-size:.82rem; color:var(--muted); background:var(--surface-2);
+  border-radius:999px; padding:7px 16px;
+}
+form#signupForm{ display:flex; flex-direction:column; gap:10px; width:100%; max-width:320px; }
+.seg{ display:flex; gap:8px; width:100%; }
+.signup-type-btn{
+  flex:1; appearance:none; cursor:pointer; font-family:var(--font-sans); font-size:.82rem;
+  font-weight:600; padding:11px 8px; min-height:44px; border-radius:10px;
+  border:1px solid var(--border); background:var(--surface-2); color:var(--muted);
+}
+.signup-type-btn[aria-pressed="true"]{ background:var(--accent); color:var(--accent-contrast); border-color:var(--accent); }
+.field-note{ font-size:.74rem; color:var(--muted); margin:0; }
+#signupError{ color:var(--danger); font-size:.84rem; margin:0; }
+#welcomeBack{ flex-direction:column; align-items:center; gap:10px; width:100%; max-width:320px; }
+#welcomeBack:not([hidden]){ display:flex; }
+.welcome-msg{ font-weight:600; font-size:1rem; margin:0; }
+.accentpicker{ display:flex; gap:10px; }
+.swatch{
+  width:36px; height:36px; border-radius:50%; border:2px solid var(--border);
+  cursor:pointer; padding:0; appearance:none;
+}
+.swatch[aria-pressed="true"]{ border-color:var(--ink); transform:scale(1.1); }
+.cover-links{ display:flex; gap:14px; flex-wrap:wrap; justify-content:center; font-size:.84rem; }
+.linkbtn{ background:none; border:none; color:var(--muted); font-family:var(--font-sans);
+  font-size:.84rem; text-decoration:underline; cursor:pointer; padding:8px 4px; min-height:36px; }
+.cover-links a, .cover-links button{
+  color:var(--muted); background:none; border:none; padding:10px 4px; cursor:pointer;
+  font-family:var(--font-sans); font-size:.84rem; text-decoration:underline;
+  min-height:40px; display:inline-flex; align-items:center;
+}
+
+/* ---- contents ---- */
+.weekhead{
+  font-size:.7rem; letter-spacing:1.7px; text-transform:uppercase; color:var(--accent);
+  font-weight:700; margin:20px 0 6px;
+}
+.dayrow{
+  display:flex; align-items:center; gap:13px; width:100%; text-align:left;
+  background:var(--surface); border:1px solid var(--border); border-radius:12px;
+  padding:12px 14px; margin-bottom:8px; cursor:pointer; font-family:var(--font-sans);
+  color:var(--ink); min-height:58px;
+}
+.dayrow[disabled]{ cursor:default; opacity:.55; background:transparent; }
+.daynum{
+  font-family:var(--font-serif); font-size:1.05rem; width:34px; min-width:34px; height:34px;
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+  background:var(--surface-2); color:var(--muted);
+}
+.daynum.started{ background:var(--accent); color:var(--accent-contrast); }
+.daytext{ display:flex; flex-direction:column; flex:1; min-width:0; }
+.daytitle{ font-weight:600; font-size:.95rem; }
+.daymeta{ font-size:.76rem; color:var(--muted); }
+.chev{ color:var(--muted); font-size:1.3rem; }
+.lockicon{ color:var(--muted); font-size:.95rem; }
+
+/* ---- day ---- */
+.card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:16px; margin-bottom:14px;
+}
+.card h2{
+  font-family:var(--font-sans); font-size:.74rem; letter-spacing:1.7px; text-transform:uppercase;
+  color:var(--accent); margin:0 0 9px; font-weight:700;
+}
+.card .q{ font-size:.95rem; margin:0 0 10px; color:var(--ink); }
+.versecard{ background:var(--surface-2); border:none; }
+.verse{ font-family:var(--font-serif); font-style:italic; font-size:1.05rem; line-height:1.5; margin:0; }
+.verseref{ font-size:.72rem; letter-spacing:1.1px; text-transform:uppercase; color:var(--muted); margin:10px 0 0; }
+.prayerstart{ font-style:italic; color:var(--muted); font-size:.9rem; margin:0 0 10px; }
+textarea, input[type="text"], input[type="email"], input[type="search"]{
+  width:100%; font-family:var(--font-sans); font-size:1rem; color:var(--ink);
+  background:var(--surface-2); border:1px solid var(--border); border-radius:10px;
+  padding:11px 12px; resize:vertical; line-height:1.5;
+}
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="search"]:focus{
+  outline:2px solid var(--accent); outline-offset:1px;
+}
+.area-sm{ min-height:76px; } .area-md{ min-height:104px; } .area-lg{ min-height:150px; }
+.daynav{ display:flex; gap:10px; justify-content:space-between; margin:4px 0 10px; }
+.howto-block{ margin-bottom:18px; }
+.howto-block h3{
+  font-family:var(--font-sans); font-size:.74rem; letter-spacing:1.7px; text-transform:uppercase;
+  color:var(--accent); margin:0 0 6px; font-weight:700;
+}
+.fineprint{ font-size:.72rem; line-height:1.5; color:var(--muted); margin-top:18px; }
+</style>
+</head>
+<body>
+<script>
+(function(){
+  try{
+    var a = localStorage.getItem('qaj-accent') || 'sage';
+    document.documentElement.setAttribute('data-accent', a);
+    var t = localStorage.getItem('qaj-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  }catch(e){ document.documentElement.setAttribute('data-accent','sage'); }
+})();
+</script>
+<div id="app">
+
+<section class="view" id="view-cover">
+  <div class="cover-inner">
+    <img class="hero" src="data:image/png;base64,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" alt="Line drawing of Mary and Joseph beside the manger">
+    <div class="brandline">Clarity Edge</div>
+    <h1>Quiet</h1>
+    <p class="subtitle">An Advent Journal</p>
+    <div class="steps-line">Give Worry &middot; Give Gratitude<br>Reflect &middot; Pray</div>
+    <p class="countdown" id="countdown" hidden></p>
+
+    <form id="signupForm" novalidate>
+      <div class="seg" role="group" aria-label="Who is this for?">
+        <button type="button" class="signup-type-btn" data-type="individual" aria-pressed="true">For myself</button>
+        <button type="button" class="signup-type-btn" data-type="church" aria-pressed="false">For my church or group</button>
+      </div>
+      <input type="text" id="leadName" name="name" placeholder="First name" autocomplete="given-name">
+      <input type="email" id="leadEmail" name="email" placeholder="Email address" autocomplete="email" inputmode="email">
+      <p id="signupError" hidden></p>
+      <button type="submit" class="btn">Open the journal</button>
+      <p class="field-note">Free. Twenty-five mornings. You can leave any time.</p>
+    </form>
+
+    <div id="welcomeBack" hidden>
+      <p class="welcome-msg" id="welcomeMsg"></p>
+      <button type="button" class="btn" id="btnContinue">Continue</button>
+      <button type="button" class="linkbtn" id="btnSwitchAccount">Not you?</button>
+    </div>
+
+    <div class="accentpicker" id="coverAccentPicker" role="group" aria-label="Accent colour"></div>
+    <div class="cover-links">
+      <button type="button" data-nav="about">About Dan</button>
+      <button type="button" data-nav="howto">How to use it</button>
+      <a href="https://clarityedge.com.au" target="_blank" rel="noopener">clarityedge.com.au</a>
+    </div>
+  </div>
+</section>
+
+<section class="view" id="view-contents" hidden>
+  <div class="topbar">
+    <button type="button" class="iconbtn" data-nav="cover" aria-label="Back to cover">&#8249;</button>
+    <h1>25 Days at a Glance</h1>
+    <button type="button" class="iconbtn" id="btnThemeContents" aria-label="Toggle dark mode">&#9680;</button>
+    <button type="button" class="iconbtn" id="btnAccentContents" aria-label="Change accent colour">&#9679;</button>
+  </div>
+  <div class="pad">
+    <p class="muted" id="contentsNote" style="font-size:.86rem;margin:0 0 4px;"></p>
+    <div id="dayList"></div>
+    <div class="btn-row" style="margin:18px 0 6px;">
+      <button type="button" class="btn-ghost btn" data-nav="notes">Notes</button>
+      <button type="button" class="btn-ghost btn" data-nav="howto">How to use it</button>
+      <button type="button" class="btn-ghost btn" data-nav="about">About Dan</button>
+    </div>
+    <p class="fineprint" id="permissionNote"></p>
+  </div>
+</section>
+
+<section class="view" id="view-day" hidden>
+  <div class="topbar">
+    <button type="button" class="iconbtn" id="btnDayHome" aria-label="Back to contents">&#8249;</button>
+    <h1 id="dayTopTitle">Day</h1>
+    <button type="button" class="iconbtn" id="btnDayPrevTop" aria-label="Previous day">&#8593;</button>
+    <button type="button" class="iconbtn" id="btnDayNextTop" aria-label="Next day">&#8595;</button>
+  </div>
+  <div class="pad">
+    <p class="eyebrow" id="dayTheme"></p>
+    <h2 id="dayTitle" style="font-family:var(--font-serif);font-weight:500;font-size:1.75rem;margin:6px 0 2px;line-height:1.2;"></h2>
+    <p class="muted" id="dayMeta" style="margin:0 0 4px;font-size:.88rem;"></p>
+    <hr class="rule">
+
+    <div class="card versecard">
+      <p class="verse" id="dayVerse"></p>
+      <p class="verseref" id="dayRef"></p>
+    </div>
+
+    <div class="card">
+      <h2>Give Worry</h2>
+      <p class="q" id="dayWorryQ"></p>
+      <textarea class="area-md" id="fieldWorry" placeholder="Write it down…"></textarea>
+    </div>
+
+    <div class="card">
+      <h2>Give Gratitude</h2>
+      <p class="q" id="dayGratQ"></p>
+      <textarea class="area-md" id="fieldGratitude" placeholder="Something small counts…"></textarea>
+    </div>
+
+    <div class="card">
+      <h2>Reflect</h2>
+      <p class="q" id="dayReflectQ"></p>
+      <textarea class="area-lg" id="fieldReflect" placeholder="Whatever comes to you…"></textarea>
+    </div>
+
+    <div class="card">
+      <h2>Pray</h2>
+      <p class="prayerstart" id="dayPrayer"></p>
+      <textarea class="area-md" id="fieldPray" placeholder="In your own words…"></textarea>
+    </div>
+
+    <div class="daynav">
+      <button type="button" class="btn btn-ghost" id="btnDayPrev">Previous</button>
+      <button type="button" class="btn btn-ghost" id="btnDayNext">Next day</button>
+    </div>
+  </div>
+</section>
+
+<section class="view" id="view-about" hidden>
+  <div class="topbar">
+    <button type="button" class="iconbtn" data-nav="cover" aria-label="Back">&#8249;</button>
+    <h1>About</h1>
+  </div>
+  <div class="pad">
+    <p class="eyebrow">Written by</p>
+    <h2 style="font-family:var(--font-serif);font-weight:500;font-size:1.6rem;margin:6px 0 2px;">Dan Kewley</h2>
+    <p class="muted" style="margin:0 0 14px;font-size:.9rem;">Founder, Clarity Edge Counselling</p>
+    <div class="prose" id="aboutBio"></div>
+    <hr class="rule">
+    <div class="prose" id="aboutIntro"></div>
+    <div class="btn-row" style="margin-top:18px;">
+      <button type="button" class="btn" id="btnAboutContinue">Next</button>
+      <a class="btn btn-ghost" href="https://clarityedge.com.au" target="_blank" rel="noopener" style="text-decoration:none;">clarityedge.com.au</a>
+    </div>
+  </div>
+</section>
+
+<section class="view" id="view-howto" hidden>
+  <div class="topbar">
+    <button type="button" class="iconbtn" data-nav="cover" aria-label="Back">&#8249;</button>
+    <h1>How to use it</h1>
+  </div>
+  <div class="pad">
+    <p class="muted" style="margin:0 0 16px;font-size:.92rem;">Four steps, five minutes, every morning from 1 to 25 December. Work through them in order, or land wherever you need to most.</p>
+    <div id="howtoContent"></div>
+    <div class="btn-row" style="margin-top:6px;">
+      <button type="button" class="btn" id="btnHowtoContinue">Start reading</button>
+    </div>
+    <p class="fineprint" id="permissionNote2"></p>
+  </div>
+</section>
+
+<section class="view" id="view-notes" hidden>
+  <div class="topbar">
+    <button type="button" class="iconbtn" data-nav="contents" aria-label="Back to contents">&#8249;</button>
+    <h1>Notes</h1>
+  </div>
+  <div class="pad">
+    <p class="muted" style="margin:0 0 12px;font-size:.9rem;">Extra space for anything that doesn’t belong to one day.</p>
+    <textarea id="notesArea" style="min-height:60vh;" placeholder="Write freely…"></textarea>
+  </div>
+</section>
+</div>
+<script>
+var DATA = {"worry":"Is there anything I am worried about today?","weeks":{"1":"Hope in the Waiting","2":"The Promise","3":"Preparing the Way","4":"The King Draws Near","5":"Born for You"},"days":[{"num":1,"date":"1 December","short":"1 Dec","week":1,"theme":"Hope in the Waiting","title":"The Wilderness Will Bloom","ref":"Isaiah 35:1-2","ver":"NLT","verse":"Even the wilderness and desert will be glad in those days. The wasteland will rejoice and blossom with spring crocuses. Yes, there will be an abundance of flowers and singing and joy! The deserts will become as green as the mountains of Lebanon, as lovely as Mount Carmel or the plain of Sharon. There the Lord will display his glory, the splendor of our God.","gratitude":"One small thing that’s already growing in a dry patch of my life.","reflectQ":"Dry seasons don’t get the last word here. God promises the desert will flower. Where does my life feel like wasteland right now, and what would blooming even look like?","prayer":"Lord, there are dry places in me this season. Thanks that you promise to make them bloom. Amen."},{"num":2,"date":"2 December","short":"2 Dec","week":1,"theme":"Hope in the Waiting","title":"Be Strong, Do Not Fear","ref":"Isaiah 35:3-6","ver":"NLT","verse":"With this news, strengthen those who have tired hands, and encourage those who have weak knees. Say to those with fearful hearts, “Be strong, and do not fear, for your God is coming to destroy your enemies. He is coming to save you.” And when he comes, he will open the eyes of the blind and unplug the ears of the deaf. The lame will leap like a deer, and those who cannot speak will sing for joy!","gratitude":"Someone who has strengthened me when I was running low.","reflectQ":"The people spoken to here are tired and shaky, and the message isn’t “try harder.” It’s “your God is coming.” What would change if I let that be enough for today?","prayer":"Lord, my hands are tired and my knees are weak. Be my strength today. Amen."},{"num":3,"date":"3 December","short":"3 Dec","week":1,"theme":"Hope in the Waiting","title":"Counting on the Lord","ref":"Psalm 130:5","ver":"NLT","verse":"I am counting on the Lord; yes, I am counting on him. I have put my hope in his word.","gratitude":"A time God came through when I’d almost stopped expecting it.","reflectQ":"Waiting is hard when I’d rather have answers now. What am I waiting on God for, and what would it look like to count on him while I wait?","prayer":"Lord, I’m counting on you. Help me wait without wearing myself out. Amen."},{"num":4,"date":"4 December","short":"4 Dec","week":1,"theme":"Hope in the Waiting","title":"Prepare Your Minds","ref":"1 Peter 1:13","ver":"NLT","verse":"So prepare your minds for action and exercise self-control. Put all your hope in the gracious salvation that will come to you when Jesus Christ is revealed to the world.","gratitude":"A quiet moment I managed to protect lately, even a short one.","reflectQ":"Advent gets busy fast. What’s one thing I can set down this week so my mind has room to prepare for Jesus?","prayer":"Lord, clear some space in my head and my calendar for you. Amen."},{"num":5,"date":"5 December","short":"5 Dec","week":1,"theme":"Hope in the Waiting","title":"The Sun Will Rise","ref":"Malachi 4:2","ver":"NLT","verse":"But for you who fear my name, the Sun of Righteousness will rise with healing in his wings. And you will go free, leaping with joy like calves let out to pasture.","gratitude":"A morning lately when the light or the quiet made things feel a bit easier.","reflectQ":"Healing is promised in the rising of the sun, not in my own effort. What part of me needs the light of that sunrise most right now?","prayer":"Lord, rise on the parts of me that feel stuck in the dark. Amen."},{"num":6,"date":"6 December","short":"6 Dec","week":2,"theme":"The Promise","title":"A Child Is Born","ref":"Isaiah 9:6-7","ver":"NLT","verse":"For a child is born to us, a son is given to us. The government will rest on his shoulders. And he will be called: Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace. His government and its peace will never end. He will rule with fairness and justice from the throne of his ancestor David for all eternity. The passionate commitment of the Lord of Heaven’s Armies will make this happen!","gratitude":"Someone who has been a counselor or a peacemaker in my life.","reflectQ":"Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace. Which of those names do I most need Jesus to be for me this week?","prayer":"Lord, be my Prince of Peace today, especially where things feel tense. Amen."},{"num":7,"date":"7 December","short":"7 Dec","week":2,"theme":"The Promise","title":"God With Us","ref":"Isaiah 7:14","ver":"NLT","verse":"All right then, the Lord himself will give you the sign. Look! The virgin will conceive a child! She will give birth to a son and will call him Immanuel (which means ‘God is with us’).","gratitude":"A time I felt less alone than I expected to.","reflectQ":"“God with us” isn’t a distant idea. It’s a promise that he’s in the room. Where do I most need to know he’s with me today?","prayer":"Lord, thanks for being with us. Make me aware of you today. Amen."},{"num":8,"date":"8 December","short":"8 Dec","week":2,"theme":"The Promise","title":"From Little Bethlehem","ref":"Micah 5:2","ver":"NLT","verse":"But you, O Bethlehem Ephrathah, are only a small village among all the people of Judah. Yet a ruler of Israel, whose origins are in the distant past, will come from you on my behalf.","gratitude":"A small thing in my day that mattered more than it looked.","reflectQ":"God chose a small, easily overlooked town for the biggest moment in history. Where do I feel small or overlooked, and what might God be doing there?","prayer":"Lord, thanks that you work through small places and small people, including me. Amen."},{"num":9,"date":"9 December","short":"9 Dec","week":2,"theme":"The Promise","title":"Your King Comes","ref":"Zechariah 9:9","ver":"NLT","verse":"Rejoice, O people of Zion! Shout in triumph, O people of Jerusalem! Look, your king is coming to you. He is righteous and victorious, yet he is humble, riding on a donkey—riding on a donkey’s colt.","gratitude":"Someone in my life who is strong and gentle at the same time.","reflectQ":"The king in this promise comes gentle and humble, on a donkey, not a war horse. What does it say about Jesus that he arrives this way?","prayer":"Lord, I welcome you as king. Rule in the places I’ve been holding onto. Amen."},{"num":10,"date":"10 December","short":"10 Dec","week":2,"theme":"The Promise","title":"Prepare the Way","ref":"Isaiah 40:3-5","ver":"NLT","verse":"Listen! It’s the voice of someone shouting, “Clear the way through the wilderness for the Lord! Make a straight highway through the wasteland for our God! Fill in the valleys, and level the mountains and hills. Straighten the curves, and smooth out the rough places. Then the glory of the Lord will be revealed, and all people will see it together. The Lord has spoken!”","gratitude":"A relationship or habit that’s smoother than it used to be.","reflectQ":"Rough ground gets smoothed and valleys get filled before the king arrives. What rough patch in me, or between me and someone else, needs work before Christmas?","prayer":"Lord, show me what needs levelling in me, and help me make a start. Amen."},{"num":11,"date":"11 December","short":"11 Dec","week":3,"theme":"Preparing the Way","title":"A Voice to Prepare the People","ref":"Luke 1:16-17","ver":"NLT","verse":"And he will turn many Israelites to the Lord their God. He will be a man with the spirit and power of Elijah. He will prepare the people for the coming of the Lord. He will turn the hearts of the fathers to their children, and he will cause those who are rebellious to accept the wisdom of the godly.","gratitude":"Someone who helped point me back to God when I’d drifted.","reflectQ":"John’s job was to turn hearts back toward each other and toward God before Jesus showed up. Who in my family or circle needs a step toward reconciliation this Advent?","prayer":"Lord, turn my heart toward the people I love, and toward you. Amen."},{"num":12,"date":"12 December","short":"12 Dec","week":3,"theme":"Preparing the Way","title":"Do Not Be Afraid","ref":"Luke 1:30-33","ver":"NLT","verse":"“Don’t be afraid, Mary,” the angel told her, “for you have found favor with God! You will conceive and give birth to a son, and you will name him Jesus. He will be very great and will be called the Son of the Most High. The Lord God will give him the throne of his ancestor David. And he will reign over Israel forever; his Kingdom will never end!”","gratitude":"A moment lately where God’s kindness caught me off guard.","reflectQ":"The angel starts with “don’t be afraid.” What fear is sitting on the edge of my Christmas this year, and what would it be like to hear God say that to me?","prayer":"Lord, I hear you saying don’t be afraid. Help me actually believe it. Amen."},{"num":13,"date":"13 December","short":"13 Dec","week":3,"theme":"Preparing the Way","title":"The Power of the Most High","ref":"Luke 1:35","ver":"NLT","verse":"The angel replied, “The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the baby to be born will be holy, and he will be called the Son of God.”","gratitude":"Something that happened in my life that I couldn’t have engineered.","reflectQ":"Mary was told something impossible and was given a promise rather than a plan. Where am I asking God for the whole plan when I’ve only been given the promise?","prayer":"Lord, I can’t make this work on my own. Do what only you can do. Amen."},{"num":14,"date":"14 December","short":"14 Dec","week":3,"theme":"Preparing the Way","title":"The Lord’s Servant","ref":"Luke 1:38","ver":"NLT","verse":"Mary responded, “I am the Lord’s servant. May everything you have said about me come true.” And then the angel left her.","gratitude":"A time saying yes to something scary turned out better than I expected.","reflectQ":"Mary said yes before she could see how it would turn out. What yes might God be asking of me right now?","prayer":"Lord, I’m yours. Help me say yes to what you’re asking, even when I can’t see the end. Amen."},{"num":15,"date":"15 December","short":"15 Dec","week":3,"theme":"Preparing the Way","title":"Praise the Lord","ref":"Luke 1:68-71","ver":"NLT","verse":"Praise the Lord, the God of Israel, because he has visited and redeemed his people. He has sent us a mighty Savior from the royal line of his servant David, just as he promised through his holy prophets long ago. Now we will be saved from our enemies and from all who hate us.","gratitude":"Something God has already done that I haven’t thanked him for properly.","reflectQ":"Zechariah praises God for what was promised, not just what he could see yet. What can I praise God for today, ahead of seeing the answer?","prayer":"Lord, I praise you for your promises, not just what I can see. Amen."},{"num":16,"date":"16 December","short":"16 Dec","week":4,"theme":"The King Draws Near","title":"Joseph’s Dream","ref":"Matthew 1:20-21","ver":"NLT","verse":"As he considered this, an angel of the Lord appeared to him in a dream. “Joseph, son of David,” the angel said, “do not be afraid to take Mary as your wife. For the child within her was conceived by the Holy Spirit. And she will have a son, and you are to name him Jesus, for he will save his people from their sins.”","gratitude":"A change of plans that turned out for the better.","reflectQ":"Joseph’s plan fell apart, and God stepped in with a better one. Where has a plan of mine fallen apart lately, and could God be redirecting me rather than abandoning me?","prayer":"Lord, when my plans fall through, help me listen for yours. Amen."},{"num":17,"date":"17 December","short":"17 Dec","week":4,"theme":"The King Draws Near","title":"The Road to Bethlehem","ref":"Luke 2:4-5","ver":"NLT","verse":"And because Joseph was a descendant of King David, he had to go to Bethlehem in Judea, David’s ancient home. He traveled there from the village of Nazareth in Galilee. He took with him Mary, to whom he was engaged, who was now expecting a child.","gratitude":"A person who has walked a long stretch of road with me.","reflectQ":"Mary and Joseph travelled a long way while everything was uncertain. What’s my long road this season, and who’s walking it with me?","prayer":"Lord, keep me steady on the road, especially when it’s long. Amen."},{"num":18,"date":"18 December","short":"18 Dec","week":4,"theme":"The King Draws Near","title":"We Have Come to Worship","ref":"Matthew 2:1-2","ver":"NLT","verse":"Jesus was born in Bethlehem in Judea, during the reign of King Herod. About that time some wise men from eastern lands arrived in Jerusalem, asking, “Where is the newborn king of the Jews? We saw his star as it rose, and we have come to worship him.”","gratitude":"Something that has pointed me toward Jesus when I’ve been looking.","reflectQ":"The wise men went looking for the king, and went a long way to do it. What am I actually searching for this Christmas, and is it him?","prayer":"Lord, I want to seek you the way they did. Lead me. Amen."},{"num":19,"date":"19 December","short":"19 Dec","week":4,"theme":"The King Draws Near","title":"Troubled Hearts","ref":"Matthew 2:3","ver":"NLT","verse":"King Herod was deeply disturbed when he heard this, as was everyone in Jerusalem.","gratitude":"A moment when letting go of control actually felt like a relief.","reflectQ":"News of the new king troubled Herod because it threatened his control. Is there anything in me that wants to hold the controls rather than welcome a king?","prayer":"Lord, show me where I’m gripping the controls, and give me the courage to hand them over. Amen."},{"num":20,"date":"20 December","short":"20 Dec","week":4,"theme":"The King Draws Near","title":"He Became One of Us","ref":"Hebrews 2:14-15","ver":"NLT","verse":"Because God’s children are human beings—made of flesh and blood—the Son also became flesh and blood. For only as a human being could he die, and only by dying could he break the power of the devil, who had the power of death. Only in this way could he set free all who have lived their lives as slaves to the fear of dying.","gratitude":"Someone who has shown me what real courage looks like.","reflectQ":"Jesus became fully human so he could break the grip of fear. What fear still has a grip on me, and what happens if I hand it to him?","prayer":"Lord, thanks for stepping into our skin and facing it all for us. Free me from my fears. Amen."},{"num":21,"date":"21 December","short":"21 Dec","week":5,"theme":"Born for You","title":"A Rich and Satisfying Life","ref":"John 10:10","ver":"NLT","verse":"The thief’s purpose is to steal and kill and destroy. My purpose is to give them a rich and satisfying life.","gratitude":"A moment of real fullness in my week, even a tiny one.","reflectQ":"Jesus came to give a rich and satisfying life, not just to help me get through the season. What would that look like for me this week, in small and ordinary ways?","prayer":"Lord, thanks for coming so I could have real life. Show me where to receive it. Amen."},{"num":22,"date":"22 December","short":"22 Dec","week":5,"theme":"Born for You","title":"Hope Revealed","ref":"Titus 2:13-14","ver":"NLT","verse":"We look forward with hope to that wonderful day when the glory of our great God and Savior, Jesus Christ, will be revealed. He gave his life to free us from every kind of sin, to cleanse us, and to make us his very own people, totally committed to doing good deeds.","gratitude":"A reason for hope I didn’t have a year ago.","reflectQ":"This is a hope that has already started and a day that’s still to come. How does knowing that change the way I’m carrying this season?","prayer":"Lord, keep my eyes on the day when everything is made right. Amen."},{"num":23,"date":"23 December","short":"23 Dec","week":5,"theme":"Born for You","title":"He Made His Home Among Us","ref":"John 1:14","ver":"NLT","verse":"So the Word became human and made his home among us. He was full of unfailing love and faithfulness. And we have seen his glory, the glory of the Father’s one and only Son.","gratitude":"The ordinary rooms of my life where God has shown up.","reflectQ":"Jesus didn’t visit. He made his home among us. What would it mean to treat him as someone actually living in my days, not just dropping in at Christmas?","prayer":"Lord, thanks for moving in among us. Make yourself at home in me. Amen."},{"num":24,"date":"24 December","short":"24 Dec","week":5,"theme":"Born for You","title":"Good News of Great Joy","ref":"Luke 2:10-11","ver":"NLT","verse":"But the angel reassured them. “Don’t be afraid!” he said. “I bring you good news that will bring great joy to all the people. The Savior—yes, the Messiah, the Lord—has been born today in Bethlehem, the city of David!”","gratitude":"Someone who brought me good news when I needed it.","reflectQ":"The first people to hear were ordinary shepherds working the night shift, and the news was for all the people. What would it mean if I believed it was really for me?","prayer":"Lord, thanks that the good news is for me too. Amen."},{"num":25,"date":"25 December","short":"25 Dec","week":5,"theme":"Born for You","title":"Glory to God","ref":"Luke 2:12-14","ver":"NLT","verse":"And you will recognize him by this sign: You will find a baby wrapped snugly in strips of cloth, lying in a manger.” Suddenly, the angel was joined by a vast host of others—the armies of heaven—praising God and saying, “Glory to God in highest heaven, and peace on earth to those with whom God is pleased.”","gratitude":"Everything this Advent has taught me, and everyone who has walked it with me.","reflectQ":"The sign was a baby in a feed trough, hardly what anyone expected. Where is God showing up in my life in a way that’s smaller or humbler than I’d have chosen?","prayer":"Glory to God in highest heaven. Lord, thank you for Jesus. Amen."}]};
+var HOWTO = {"Give Worry":"Name whatever’s sitting on you today. Put it on the page instead of carrying it around all day. Keep it simple and factual — dot points are just as good as sentences, and the point is getting it out of your head.","Give Gratitude":"Notice something good, even a small one. It doesn’t have to outweigh the hard stuff to count. The smaller and more specific, the better — concrete moments train your mind to see what’s already there.","Reflect":"One passage from the Advent story, and one question that connects it to your own day. Sit with it a moment before you write. The value is in the noticing, not in producing a polished answer.","Pray":"A short line to start you off, then space to keep going in your own words. Give God the worry, give thanks for the good, and lean into whatever he’s saying to you through the day’s passage."};
+var INTRO = ["In the book of Exodus we find one of the most pivotal stories in the Bible — Moses and the burning bush. During that encounter God commands Moses to remove his sandals, because “the place on which you are standing is holy ground.” (Exodus 3:5)","What made the place holy? Not that particular patch of earth. It was holy simply because God was present, and God was preparing Moses to be in that presence.","By giving over our worries and practising gratitude we are, in essence, taking off our shoes — getting ready to hear what God has to say to us through his word each day.","Open the day’s page each morning from 1 December to Christmas Day, or whenever you have five quiet minutes. Work through the four steps in order, or land wherever you need to most."];
+var PERMISSION = "Scripture quotations marked (NLT) are taken from the Holy Bible, New Living Translation, copyright © 1996, 2004, 2015 by Tyndale House Foundation. Used by permission of Tyndale House Publishers, Inc., Carol Stream, Illinois 60188. All rights reserved.";
+var DAYS = DATA.days, WORRY = DATA.worry, WEEKS = DATA.weeks;
+
+var ACCENTS = ['sage','teal','taupe','indigo'];
+var ACCENT_SWATCH = { sage:'#75876C', teal:'#1F4B52', taupe:'#8C7A63', indigo:'#4A4E78' };
+var FIELDS = ['worry','gratitude','reflect','pray'];
+
+function lsGet(k, d){ try{ var v = localStorage.getItem(k); return v===null? d : v; }catch(e){ return d; } }
+function lsSet(k, v){ try{ localStorage.setItem(k, v); }catch(e){} }
+
+var currentDayNum = null;
+
+/* ---- date gating -------------------------------------------------------
+   Advent here runs 1-25 December on the reader's own clock. During December
+   days open as they arrive; in January the whole of the previous Advent
+   stays open; the rest of the year nothing has started yet, so Day 1 is
+   offered as a preview rather than leaving the reader a wall of locks. */
+function unlockedThrough(){
+  var n = new Date(), m = n.getMonth(), d = n.getDate();
+  if (m === 11) return Math.min(d, 25);
+  if (m === 0) return 25;
+  return 0;
+}
+function isPreviewSeason(){ return unlockedThrough() === 0; }
+function isOpen(num){
+  var u = unlockedThrough();
+  return (u >= num) || (u === 0 && num === 1);
+}
+function daysUntilAdvent(){
+  var n = new Date();
+  var y = (n.getMonth() === 11) ? n.getFullYear() + 1 : n.getFullYear();
+  var start = new Date(y, 11, 1);
+  var today = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+  return Math.max(0, Math.round((start - today) / 86400000));
+}
+
+function showView(name){
+  var views = document.querySelectorAll('.view');
+  for (var i=0;i<views.length;i++){ views[i].hidden = (views[i].id !== 'view-'+name); }
+  var active = document.getElementById('view-'+name);
+  if (active) active.scrollTop = 0;
+  window.scrollTo(0,0);
+  lsSet('qaj-last-view', name);
+}
+
+function enterJournal(){
+  if (!lsGet('qaj-intro-seen','')){ showView('about'); }
+  else { buildDayList(); showView('contents'); }
+}
+
+function hasProgress(num){
+  for (var i=0;i<FIELDS.length;i++){
+    if (lsGet('qaj-day-'+num+'-'+FIELDS[i], '').trim() !== '') return true;
+  }
+  return false;
+}
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, function(c){
+    return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+  });
+}
+
+function dayByNum(n){
+  for (var i=0;i<DAYS.length;i++){ if (DAYS[i].num === n) return DAYS[i]; }
+  return null;
+}
+
+function buildDayList(){
+  var list = document.getElementById('dayList');
+  list.innerHTML = '';
+  var note = document.getElementById('contentsNote');
+  if (isPreviewSeason()){
+    var n = daysUntilAdvent();
+    note.textContent = n === 0 ? 'Advent begins today.'
+      : 'Advent begins in ' + n + ' day' + (n===1?'':'s') + '. Day 1 is open now as a preview.';
+  } else {
+    note.textContent = 'A new day opens each morning through to Christmas.';
+  }
+  var week = 0;
+  DAYS.forEach(function(d){
+    if (d.week !== week){
+      week = d.week;
+      var h = document.createElement('div');
+      h.className = 'weekhead';
+      h.textContent = 'Week ' + week + ' \u00b7 ' + WEEKS[String(week)];
+      list.appendChild(h);
+    }
+    var open = isOpen(d.num);
+    var row = document.createElement('button');
+    row.className = 'dayrow';
+    row.type = 'button';
+    if (!open) row.disabled = true;
+    row.innerHTML =
+      '<span class="daynum'+(hasProgress(d.num)?' started':'')+'">'+d.num+'</span>' +
+      '<span class="daytext">' +
+        '<span class="daytitle">'+escapeHtml(open ? d.title : d.short)+'</span>' +
+        '<span class="daymeta">'+escapeHtml(open ? (d.short + ' \u00b7 ' + d.ref) : 'Opens ' + d.date)+'</span>' +
+      '</span>' +
+      (open ? '<span class="chev">&#8250;</span>' : '<span class="lockicon" aria-hidden="true">&#9679;</span>');
+    if (open){
+      row.addEventListener('click', function(num){
+        return function(){ openDay(num); };
+      }(d.num));
+    } else {
+      row.setAttribute('aria-label', 'Day ' + d.num + ' opens on ' + d.date);
+    }
+    list.appendChild(row);
+  });
+}
+
+function lastOpenDay(){
+  var u = unlockedThrough();
+  return u === 0 ? 1 : Math.min(u, 25);
+}
+
+function openDay(num){
+  var d = dayByNum(num);
+  if (!d || !isOpen(num)) return;
+  currentDayNum = num;
+  document.getElementById('dayTopTitle').textContent = 'Day ' + num;
+  document.getElementById('dayTheme').textContent = 'Week ' + d.week + ' \u00b7 ' + d.theme;
+  document.getElementById('dayTitle').textContent = d.title;
+  document.getElementById('dayMeta').textContent = d.date;
+  document.getElementById('dayVerse').textContent = d.verse;
+  document.getElementById('dayRef').textContent = '\u2014 ' + d.ref + ', ' + d.ver;
+  document.getElementById('dayWorryQ').textContent = WORRY;
+  document.getElementById('dayGratQ').textContent = d.gratitude;
+  document.getElementById('dayReflectQ').textContent = d.reflectQ;
+  document.getElementById('dayPrayer').textContent = 'A place to start: \u201c' + d.prayer + '\u201d';
+
+  document.getElementById('fieldWorry').value = lsGet('qaj-day-'+num+'-worry','');
+  document.getElementById('fieldGratitude').value = lsGet('qaj-day-'+num+'-gratitude','');
+  document.getElementById('fieldReflect').value = lsGet('qaj-day-'+num+'-reflect','');
+  document.getElementById('fieldPray').value = lsGet('qaj-day-'+num+'-pray','');
+
+  var last = lastOpenDay();
+  var atStart = (num <= 1), atEnd = (num >= last);
+  document.getElementById('btnDayPrev').disabled = atStart;
+  document.getElementById('btnDayNext').disabled = atEnd;
+  document.getElementById('btnDayPrevTop').disabled = atStart;
+  document.getElementById('btnDayNextTop').disabled = atEnd;
+
+  lsSet('qaj-last-day', String(num));
+  showView('day');
+}
+
+function wireDayFields(){
+  var map = { fieldWorry:'worry', fieldGratitude:'gratitude', fieldReflect:'reflect', fieldPray:'pray' };
+  Object.keys(map).forEach(function(id){
+    document.getElementById(id).addEventListener('input', function(){
+      if (currentDayNum === null) return;
+      lsSet('qaj-day-'+currentDayNum+'-'+map[id], document.getElementById(id).value);
+    });
+  });
+}
+
+function goPrevDay(){ if (currentDayNum && currentDayNum > 1) openDay(currentDayNum - 1); }
+function goNextDay(){ if (currentDayNum && currentDayNum < lastOpenDay()) openDay(currentDayNum + 1); }
+
+function renderStatic(){
+  document.getElementById('aboutBio').innerHTML = '<p>' + "With over twenty years in the helping-people industry, Dan brings a wealth of knowledge, warmth, and genuine care to everyone he works with. His journey spans ministry, leadership, and clinical counselling, giving him a holistic perspective on mental health and wellbeing — with a particular passion for leaders seeking clarity and direction, regional communities, and young people navigating life’s pressures. He holds a Bachelor of Ministry and Theology, a Graduate Diploma of Leadership &amp; Management, and a Master of Guidance &amp; Counselling." + '</p>';
+  document.getElementById('aboutIntro').innerHTML =
+    INTRO.map(function(p){ return '<p>' + escapeHtml(p) + '</p>'; }).join('');
+  var order = ['Give Worry','Give Gratitude','Reflect','Pray'];
+  document.getElementById('howtoContent').innerHTML = order.map(function(k){
+    return '<div class="howto-block"><h3>'+escapeHtml(k)+'</h3><div class="prose"><p>'+escapeHtml(HOWTO[k])+'</p></div></div>';
+  }).join('');
+  document.getElementById('permissionNote').textContent = PERMISSION;
+  document.getElementById('permissionNote2').textContent = PERMISSION;
+}
+
+function applyAccent(a){
+  document.documentElement.setAttribute('data-accent', a);
+  lsSet('qaj-accent', a);
+  renderAccentPickers();
+}
+function renderAccentPickers(){
+  var current = lsGet('qaj-accent','sage');
+  var cover = document.getElementById('coverAccentPicker');
+  cover.innerHTML = '';
+  ACCENTS.forEach(function(a){
+    var b = document.createElement('button');
+    b.className = 'swatch'; b.type = 'button';
+    b.style.background = ACCENT_SWATCH[a];
+    b.setAttribute('aria-pressed', String(a === current));
+    b.setAttribute('aria-label', a + ' accent');
+    b.addEventListener('click', function(){ applyAccent(a); });
+    cover.appendChild(b);
+  });
+}
+function cycleAccent(){
+  var i = ACCENTS.indexOf(lsGet('qaj-accent','sage'));
+  applyAccent(ACCENTS[(i + 1) % ACCENTS.length]);
+}
+function currentlyDark(){
+  var t = lsGet('qaj-theme','');
+  if (t) return t === 'dark';
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function toggleTheme(){
+  var next = currentlyDark() ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  lsSet('qaj-theme', next);
+}
+
+var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+function renderCoverState(){
+  var hasLead = !!lsGet('qaj-lead-email','');
+  document.getElementById('signupForm').hidden = hasLead;
+  document.getElementById('welcomeBack').hidden = !hasLead;
+  if (hasLead){
+    var name = lsGet('qaj-lead-name','');
+    document.getElementById('welcomeMsg').textContent = name ? ('Welcome back, ' + name + '.') : 'Welcome back.';
+  }
+  var cd = document.getElementById('countdown');
+  if (isPreviewSeason()){
+    var n = daysUntilAdvent();
+    cd.textContent = n === 0 ? 'Advent begins today' : 'Advent begins in ' + n + ' day' + (n===1?'':'s');
+    cd.hidden = false;
+  } else {
+    cd.hidden = true;
+  }
+}
+
+var signupType = 'individual';
+document.querySelectorAll('.signup-type-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    signupType = btn.getAttribute('data-type');
+    document.querySelectorAll('.signup-type-btn').forEach(function(b){
+      b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+    });
+  });
+});
+
+function submitLead(name, email, type){
+  lsSet('qaj-lead-name', name);
+  lsSet('qaj-lead-email', email);
+  lsSet('qaj-lead-type', type);
+  // Posted to our own serverless function, which holds the Brevo key privately.
+  // Fire-and-forget: a slow or failed call must never stop someone reading.
+  try{
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name, email: email, type: type })
+    }).catch(function(err){ console.error('subscribe request failed', err); });
+  }catch(e){ console.error('subscribe request failed', e); }
+}
+
+document.getElementById('signupForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var name = document.getElementById('leadName').value.trim();
+  var email = document.getElementById('leadEmail').value.trim();
+  var errEl = document.getElementById('signupError');
+  if (!name || !EMAIL_RE.test(email)){
+    errEl.textContent = 'Please enter your first name and a valid email address.';
+    errEl.hidden = false;
+    return;
+  }
+  errEl.hidden = true;
+  submitLead(name, email, signupType);
+  renderCoverState();
+  enterJournal();
+});
+
+document.getElementById('btnContinue').addEventListener('click', enterJournal);
+document.getElementById('btnAboutContinue').addEventListener('click', function(){ showView('howto'); });
+document.getElementById('btnHowtoContinue').addEventListener('click', function(){
+  lsSet('qaj-intro-seen','1'); buildDayList(); showView('contents');
+});
+document.getElementById('btnSwitchAccount').addEventListener('click', function(){
+  lsSet('qaj-lead-name',''); lsSet('qaj-lead-email','');
+  signupType = 'individual';
+  document.querySelectorAll('.signup-type-btn').forEach(function(b){
+    b.setAttribute('aria-pressed', b.getAttribute('data-type') === 'individual' ? 'true' : 'false');
+  });
+  renderCoverState();
+});
+document.getElementById('btnAccentContents').addEventListener('click', cycleAccent);
+document.getElementById('btnThemeContents').addEventListener('click', toggleTheme);
+document.getElementById('btnDayHome').addEventListener('click', function(){ buildDayList(); showView('contents'); });
+document.getElementById('btnDayPrev').addEventListener('click', goPrevDay);
+document.getElementById('btnDayNext').addEventListener('click', goNextDay);
+document.getElementById('btnDayPrevTop').addEventListener('click', goPrevDay);
+document.getElementById('btnDayNextTop').addEventListener('click', goNextDay);
+
+document.querySelectorAll('[data-nav]').forEach(function(el){
+  el.addEventListener('click', function(){
+    var target = el.getAttribute('data-nav');
+    if (target === 'contents') buildDayList();
+    showView(target);
+  });
+});
+
+document.getElementById('notesArea').addEventListener('input', function(){
+  lsSet('qaj-notes', document.getElementById('notesArea').value);
+});
+
+wireDayFields();
+renderStatic();
+buildDayList();
+renderAccentPickers();
+renderCoverState();
+document.getElementById('notesArea').value = lsGet('qaj-notes','');
+showView('cover');
+</script>
+</body>
+</html>
